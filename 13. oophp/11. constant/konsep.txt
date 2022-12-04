@@ -1,0 +1,17 @@
+- Constant / constanta : merupakan sebuah "identifier" untuk menyimpan "nilai"
+- Constant ini membuat "nilai" yang kita simpan tidak dapat berubah
+- Dalam membuat constanta tulis nama Constanta dengan huruf besar semua
+
+Pada php ada 2 cara untuk membuat nilai contant:
+1. define() : dengan menggunakan define ini maka kita tidak bisa memasukannya ke dalam sebuah class
+2. const : dengan menggunakan const ini maka kita bisa memasukannya ke dalam sebuah class
+
+Magic Constant pada php
+1. __LINE__
+2. __FILE__
+3. __DIR__
+4. __FUNCTION__
+5. __CLASS__
+6. __TRAIT__
+7. __METHOD__
+8. __NAMESPACE__

@@ -1,0 +1,30 @@
+Abstract Class
+- Sebuah kelas yang "tidak dapat di-instansiasi"
+- Cara mengaksesnya lewat class turunannya (Child Class)
+- Mendefinisikan Interface untuk kelas lain yang menjadi turunannya
+- Berperan sebagai "kerangka dasar" untuk kelas turunannya
+- Didalamnya memiliki minimal "1 method abstrak"
+- Digunakan dalam "pewarisan / inheritance" untuk "memaksakan" implementasi method abstrak yang sama untuk kelas turunannya(jadi hanya kerangkanya/interfacenya saja dan tidak ada isinya , sehingga untuk mengaksesnya kita lakukan lewat kelas turunannya)
+
+
+Cara membuat class Abstract
+abstract class Buah{                            // kelas abstrak
+    private $warna;
+
+    abstract public function makan();           // method abstrak; hanya interface saja; implementasinya ada di kelas turnannya
+
+    public function setWarna($warna){
+        $this->warna = $warna;
+    }
+}
+
+Pemahaman lebih lanjut Class Abstract
+- Semua class turunannya, harus mengimplementasikan method abstrak yang ada di kelas abstraknya
+- kelas abstrak boleh memiliki property dan method reguler
+- Kelas abstrak boleh memiliki static property dan static method
+
+Kenapa menggunaka Class Abstract?
+- Merepresentasikan ide atau konsep dasar untuk class turunannya
+- "Composition over Inheritance"(lebih baik melakukan komposisi dibanding melakuakn inheritance begitu saja)
+- Salah satu cara untuk menerapkan Polimorphism
+- Mempermudah pengerjaan dengan tim(karena dg class abstract ini kita membuat sebuah base class yg nantinya teman setim kita sudah tau class turunannya wajib mengimplementasi dari method abstract)

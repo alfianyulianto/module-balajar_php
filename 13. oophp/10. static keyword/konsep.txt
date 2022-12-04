@@ -1,0 +1,36 @@
+Refres Materi :
+
+class Mobil {       // membuat class
+  public $nama,
+    $merek,
+    $warna,
+    $kecepatanMaksimal,
+    $jumlahPenumpang;
+
+  public function tambahKecepatan(){
+    ....
+  }
+
+  public function kurangiKecepatan(){
+    ....
+  }
+
+  public function gantiTransmisi(){
+    ....
+  }
+}
+
+$avanza = new Mobil();   // instansiasi class ke sebuah object avanza
+- Class merupakan tamplate dari object
+- Ketika kita melakukan instansiasi pada pada sebuah class maka kita bisa menggunakan properti dan method yang ada di dalam class
+
+STATIC KEYWORD
+- Kita bisa mengakses "property" dan "method" dalam konteks class (tanpa kita melakukan instansiasi dari class)
+- Kita bisa melakukan ini dengan "static propert" dan "static method"(keyword static memungkinkan kita untuk bisa mengakses pada konteks class)
+
+Untuk apa sih static keyword?
+- Member(propert dan method) terikantnya dengan class, bukan dengan object
+- Nilai static akan selalu tetap meskipun object di-instansiasi berulang kali
+- Membuat kode menjadi "seolah-olah procedural" (karena kita dapat memanggil proerty dan method tanpa melakukan instansiasi)
+- Biasanya digunakan unutk fungsi bantuan / helper
+- Digunakan di class-class utility pada Framework (seperti CI, Laravel, dll);

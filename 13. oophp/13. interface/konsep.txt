@@ -1,0 +1,61 @@
+- Interface : merupakan kelas Abstrak yang sama sekali tidak memiliki implementasi
+- Iterface tidak boleh memiliki property, hanya deklarasi method saja
+- Semua method pada interface harus dideklarasikan dengan visibility "public"
+- Boleh mendeklarasikan __construct() pada interface
+- Satu kelas turnanya boleh mengimplementasikan "banyak interface"
+
+
+Cara membuat Interface
+interafece Buah{
+    public function makan();
+    public function setWarna($warna);
+}
+
+class Apel implementasi Buah{
+    protected $warna;
+    public function makan() {
+        // kunyah
+        // sampai bagian tegah
+    }
+    public function setWarna($warna) {
+        $this->warna = $warna;
+    }
+}
+
+class Jeruk implementasi Buah{
+    protected $warna;
+    public function makan() {
+        // kupas
+        //kunyah
+    }
+    public function setWarna($warna) {
+        $this->warna = $warna;
+    }
+}
+
+---------------------CARAMENGIMPLEMENTASIKAN 2 INTERFACE--------------------
+interafece Buah{
+    public function makan();
+    public function setWarna($warna);
+}
+interafece Benda{
+    public function setukuran($ukuran);
+}
+
+class Apel implementasi Buah, Benda{
+    protected $warna;
+    public function makan() {
+        // kunyah
+        // sampai bagian tegah
+    }
+    public function setWarna($warna) {
+        $this->warna = $warna;
+    }
+    public function setUkuran($ukuran) {
+        $this->ukuran= $ukuran;
+    }
+}
+
+Pemahaman lebih lanjut Class Interface
+- Dg menggunakan type-hiting dapat melakukan 'Dependency Injection'(kita dapat memaksakan sebuah method menerima parameter object)
+- Pada akhirnya akan mencapai Polimorphism

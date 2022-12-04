@@ -1,0 +1,41 @@
+Property
+- Mereprsentasika data / keaddan dari sebuah object
+- Variabel yang ada di dalam object (memeber variable)
+- Cara membuatnya seperti variabel di PHP($), ditambah dengan "visibility" di depannya
+
+Mathod
+- Merepresentasikan perilaku(behaviour) dari sebuah object
+- Method adalah function yang ada di dalam object
+- Cara membuatnya seperti function di PHP, ditambah dengan "visibility" di depannya
+
+Jika ada object Mobil
+Property:
+    - nama
+    - merek
+    - warna
+    - kecepatanMaksimal
+    - jumlahPenumpang
+
+Method:
+    - tambahKecepatan
+    - kurangiKecepatan
+    - gantitransminsi
+    - beloKiri
+    - belokKanan
+
+class Mobil{
+    public $nama;
+    public $merek;
+    public $kecepatanMaksimal;
+    public $jumlahPenumpang;
+    
+    public function tambahKecepatan() {
+
+    }
+    public function kurangiKecepatan() {
+
+    }
+    public function gantitransminsi() {
+
+    }
+}

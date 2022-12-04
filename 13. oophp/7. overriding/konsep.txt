@@ -1,0 +1,3 @@
+- Ovirrding (sebuah istilah dimana kita bisa membuat method di class child yang sama dengan methdo parent-nya)
+- Method yang ada di class child menimpa method yang ada di class parent
+- 

@@ -1,0 +1,7 @@
+- Autoloading : cara pemanggilan class(yg disimpan kedalam file) tanpa harus menggunakan "require"
+- Biasanya jika kita membuat sebuah aplikasi dengan menggunakan konsep "OOP" maka satu file hanya terdiri dari satu "Class" saja
+
+Cara menggunakan autoloading
+spl_autoload_register(function($class){      // standart php labrary(spl ini akan memanggil sebuah fungsi ketika klass sudah di load)
+    require_once "Produk/" . $class . ".php";
+});        

@@ -1,0 +1,38 @@
+MVC : Merupapak pola arsitektur pada perancangan perangkat lunka berorientasi objel.
+
+Tujuan diterapkannya MVC?
+- Untuk memisahkan antara "tampilan", "data" dan "proses"
+
+(data)      (proses)    (tampilan)
+MODEL -><- CONTROLLER -><- VIEW
+
+Tugas CONTROLLER :
+- Perantara atara Model dan View
+- Menagnani pemrosesan pada aplikasi
+- Manangani aksi dari user (user melakukan klik, user mengisikan form, dll)
+Tugas MODEL :
+- Representasi pengetahuan
+- Mengelola data
+- Logika Bisnis
+Tugas VIEW : 
+- Output apa yg ingin dilihat oleh user
+- Representasi visual dari Model
+- Lapisan representasi
+
+Alasan kenapa harus menggunakan MVC?
+- Organisasi dan Struktur Kode
+- Untuk memisahkan antara Logic(proses) dengan Tampilan(view)
+- Mempermudah dalam mantanance Kode
+- Mengimplementasikan konsep OOP
+- Konsep MVC banyak digunakan oleh Web APplication Framework
+
+Framework MVC
+----------------------------------------------------------
+Bahasa          | Framework
+----------------------------------------------------------
+PHP             | Codeigniter, Laravel, Yii, CakePHP, dll
+Java            | Spring MVC, JSF, Struts, dll
+Python          | Django, CherryPy, dll
+Ruby            | Ruby on Rails, Sintra, dll
+Javascript      | AngularJS, React, Backbone.js, dll
+----------------------------------------------------------

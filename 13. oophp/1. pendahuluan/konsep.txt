@@ -1,0 +1,52 @@
+OOP disebut juga Paradigma Pemograman(cara kita menuliskan kode program kita)
+
+Karakteristik Procedural Progamming?
+- Instruksi dilakukan langkah demi langkah
+- Memecah program menjadi bagian-bagian kecil(function, prosedure, subroutine)
+- contohnya kita membuat program kita menjadi lebih modular lagi (menambgah file function untuk mengelola CRUD)
+- disebut procedural, subroutine atau function
+- procedural programming juga disebut "Linear / Top-to-Bottom"(program di baca dari atas ke bawah)
+- Macam-macam bahasa pemograman yang menggunakan gaya procedural antara lain: Fortran, ALGOL, COBOL, Pascal, C, PHP, Javascript
+
+Kelebihan Procedural programming
+- To-the-point(kita bisa melakukan apa yang kita mau dengan menuliskan baris-baris kode tertentu)
+- Simplicity & kemudahan implementasi (untuk dibaca oleh compiler & interpreter)
+- Mudah ditelusuri (artinya karena Procedural Progamming ini linier maka pesan error yang ada langsung ditargetkan di baris yg mana)
+- Membutuhkan lebih sedikit memory(dibandingkan dengan OOP)
+
+
+Karaktersitik OOP?
+- Menyusun semua kode program dan struktur data sebagai object
+- Object yg ada merupakan unit dasar pembentuk dari program
+- Di dalam object kita bisa menyimpan data dan perilaku dari program kita (sehingga kita nanti tidak memiliki function dan variabel karena di dalam OOP kita memiliki Propert dan Method)
+- Object bisa saling berinteraksi
+- Macam-macam pemograman yang menggunakan paradigma OOP antara lain: Java, Ruby, Python, C++, Javascript, PHP5 keatas
+
+Kelebihan OOP
+- Lebih mudah untuk merepresentasikan dunia nyata
+- Encapsulasi(visibility artinya program kita akan aman karena tidak bisa diakses dibagian lain dari program kita) & Abstraksi Data(digunakan untuk menyembunyikan kerumitan dari program)
+- Reusability(prinsipnya disini kita dapat menggunakan program kita untuk program yang lain)
+- Skalabilitas & Ekstensibilitas
+- Kemudahan pengelolaan
+- Kolaborasi
+- Konsep OOP pada PHP digunakan leh framwork PHP
+
+
+Konsep OOP pada PHP?
+1. Basic 
+    - class & object
+    - propert & Method
+    - cunstroctor
+    - object type (membuat object sebagai tipe data sendiri)
+    - inheritance (pewarisan)
+    - visibility / access modifier (public, private, protected)
+    - setter & getter (terkait encapsulasi / visibility)
+    - static Method
+
+2. Advance
+    - Abstract & interface
+    - interceptor (terkait dengan setter & getter)
+    - object cloning
+    - callbacks & closures
+    - Namespaces & Autoloading
+    - ....

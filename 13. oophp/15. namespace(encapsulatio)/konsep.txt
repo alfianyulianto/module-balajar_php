@@ -1,0 +1,8 @@
+Namespace : sebuah cara untuk mengelompokan program ke dalam sebuah "package" tersendiri
+
+Alasan kenapa program harus dikelompokan?
+- PHP tidak mengijinkan kita untuk memiliki 2 Class dengan nama yang sama
+- Jika kita menggunakan script / library dari pihak ke-tiga(tentunya mungkin saja nama kelasnya sama dengan nama kelas yang kita buat sendiri)
+
+Cara menggunakan Namespace
+namespace vendor\Namespace\Subnamespace

@@ -1,0 +1,27 @@
+Inheritance
+- Menciptakan herarki antar kelas (Parent & Child)
+- Child Class mewarisi semua properti dan method dari Parent-nya (yang visible)
+- Child CLass, memperluas (extends) fungsionalitas dari Parent-nya
+
+Contoh :
+class Mobil {
+    public $nama, $merek, $warna,
+        $kecepatanMaksimal, $jumlahPenumpang;
+
+    public function tambahKecepatan() {
+        return "Kecepatan bertamabah";
+    }
+}
+
+class MobilSport extends Mobil {
+    public $turbo = false;
+
+    public function jalankanTurbo() {
+        $this->turbo = true;
+        return "Turbo dijalankan";
+    }
+}
+$mobil = new MobilSport();
+echo $mobil->tambahKecepatan();     // intance dari mobil sport dapat menggunakan method dari class mobil
+echo "<br>";
+echo $mobil->jalankanTurbo();

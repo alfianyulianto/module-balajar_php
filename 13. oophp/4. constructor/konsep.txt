@@ -1,0 +1,1 @@
+Constructor (merupakan method yg sepesial/magic method, karena ketika kita melakukan instansiasi pada sebuah class maka method ini akan langsung dijalankan atau dalam hal ini kita tidak memanggil method cuntruct maka langsung dijalankan)
